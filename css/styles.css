@@ -9,10 +9,10 @@ body
     /*
     position: relative;
     padding-bottom: 40vh; Cuadruplique la medida
-    min-height: 100vh; Como minimo mide lo que mide el viewport*/
-    /*display: grid;
+    min-height: 100vh; Como minimo mide lo que mide el viewport
+    display: grid;
     min-height: 100vh;
-    grid-template-rows: auto 1fr auto;*/ /*Posible solución*/
+    grid-template-rows: auto 1fr auto; /*Posible solución*/
 }
 h1 {
     padding: 15px;    
@@ -224,6 +224,7 @@ input[type=submit]:active {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    align-items: center;
   }
 
 
